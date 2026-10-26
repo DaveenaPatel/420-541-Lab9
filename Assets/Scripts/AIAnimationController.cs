@@ -20,6 +20,7 @@ public class AIAnimationController : MonoBehaviour
     {
         // Update animation parameters 
         UpdateAnimations();
+        HitPlayer();
     }
 
     void UpdateAnimations()
